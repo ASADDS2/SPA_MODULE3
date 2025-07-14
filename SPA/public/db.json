@@ -1,0 +1,27 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "username": "Juan Miguel Martinez",
+      "email": "admin@gmail.com",
+      "password": "admin123",
+      "role": "admin"
+    },
+    {
+      "id": "865d",
+      "name": "Sebastian Arnache Cantillo",
+      "email": "sevasdlol2345@gmail.com",
+      "password": "sevas2345",
+      "role": "user"
+    }
+  ],
+  "events": [
+    {
+      "title": "Breakfast with Developers",
+      "showman": "Juan Miguel Martinez",
+      "capacity": null,
+      "id": "3185"
+    }
+  ],
+  "registrations": []
+}

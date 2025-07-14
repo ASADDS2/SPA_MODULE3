@@ -1,0 +1,18 @@
+*{
+    
+    box-sizing: border-box;
+    font-family: 'Manufacturing Consent', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.starting-page-container {
+    
+    font-size: 2rem;
+}
+
+ul{
+    font-size: 2rem;
+}
