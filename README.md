@@ -23,6 +23,6 @@ Email: sarnachecantillo@gmail.com
 ### How to use?
  - **npm i**
  - **npm run dev**
- -**npx json-server public/db.json**
+ - **npx json-server public/db.json**
 
 
