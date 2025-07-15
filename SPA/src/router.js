@@ -1,9 +1,8 @@
-// router.js
 import { auth } from './js/auth';
 import { showLogin } from "./views/login";
 import { showStartingPage } from "./views/pagestart";
 import { showRegister } from "./views/register";
-import { showDashboard, showEvents, showCreateEvent, showEditEvent } from "./views/dashboard";
+import { showDashboard, showEvents, showCreateEvent, showEditEvent, showMyEvents } from "./views/dashboard";
 
 export function renderNotFound() {
     document.getElementById('app').innerHTML = `<h1>404 Error, Page not found</h1>`;
@@ -45,6 +44,10 @@ const routes = {
         private: true,
         roles: ['admin']
     },
+    "/events/show":{
+        showView: showMyEvents,
+        private: true
+    }
 };
 
 export async function router() {
